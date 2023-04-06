@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+  <information>
+    <name>JYOSKIN</name>
+    <version>1.1</version>
+    <description>
+      <![CDATA[쫀쪼가 만든 JYOSKIN💕 수정은 가능하지만 재배포는 불가합니다.]]>
+    </description>
+    <license>
+      <![CDATA[@쫀쪼]]>
+    </license>
+  </information>
+  <author>
+    <name>쫀쪼</name>
+    <homepage>https://jyostudy.tistory.com/</homepage>
+    <email>jyo.velop@gmail.com</email>
+  </author>
+  <default>
+    <recentEntries>5</recentEntries> <!-- 사이드바의 최근글 표시 갯수 -->
+    <recentComments>5</recentComments> <!-- 사이드바의 최근 댓글 표시 갯수 -->
+    <recentTrackbacks>5</recentTrackbacks> <!-- 사이드바의 최근 트랙백 표시 갯수 -->
+    <itemsOnGuestbook>10</itemsOnGuestbook> <!-- 한페이지에 표시될 방명록 갯수 * -->
+    <tagsInCloud>30</tagsInCloud> <!-- 사이드바에 표시될 태그 갯수 -->
+    <sortInCloud>1</sortInCloud> <!-- 태그 클라우드 표현 방식 (1:인기도순, 2:이름순, 3:랜덤) -->
+    <expandComment>0</expandComment> <!-- 댓글영역 표현 방식 (0:감추기, 1:펼치기) -->
+    <expandTrackback>0</expandTrackback> <!-- 트랙백영역 표현 방식 (0:감추기, 1:펼치기) -->
+    <lengthOfRecentNotice>25</lengthOfRecentNotice> <!-- 최근 공지 표현될 글자수 -->
+    <lengthOfRecentEntry>27</lengthOfRecentEntry> <!-- 최근 글 표현될 글자수 -->
+    <lengthOfRecentComment>30</lengthOfRecentComment> <!-- 최근 댓글에 표현될 글자수 -->
+    <lengthOfRecentTrackback>30</lengthOfRecentTrackback> <!-- 최근 트랙백에 표현될 글자수 -->
+    <lengthOfLink>30</lengthOfLink> <!-- 링크에 표현될 글자수 -->
+    <showListOnCategory>1</showListOnCategory>
+    <showListOnArchive>1</showListOnArchive>
+    <commentMessage>
+      <none>댓글이 없습니다.</none>
+      <single>댓글 &lt;span class="cnt"&gt;하나&lt;/span&gt; 달렸습니다.</single>
+    </commentMessage>
+    <trackbackMessage>
+      <none>받은 트랙백이 없고</none>
+      <single>트랙백이 &lt;span class="cnt"&gt;하나&lt;/span&gt;이고</single>
+    </trackbackMessage>
+    <tree>
+      <color>000000</color>
+      <bgColor>ffffff</bgColor>
+      <activeColor>000000</activeColor>
+      <activeBgColor>eeeeee</activeBgColor>
+      <labelLength>27</labelLength>
+      <showValue>1</showValue>
+    </tree>
+    <contentWidth>500</contentWidth>
+  </default>
+</skin>
